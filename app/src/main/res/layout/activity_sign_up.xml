@@ -1,87 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SignUpActivity">
-
-    <LinearLayout
-        android:padding="10dp"
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="vertical">
-
-        <EditText
-            android:inputType="text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Full Name"
-            android:singleLine="true"
-            android:imeOptions="actionNext"
-            android:id="@+id/nameET"/>
-        <EditText
-            android:inputType="number"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Phone Number"
-            android:singleLine="true"
-            android:imeOptions="actionNext"
-            android:id="@+id/phoneET"/>
-
-        <EditText
-            android:inputType="textEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"
-            android:singleLine="true"
-            android:imeOptions="actionNext"
-            android:id="@+id/emailET"/>
-        <EditText
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:singleLine="true"
-            android:imeOptions="actionNext"
-            android:id="@+id/passwordET"/>
-        <EditText
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Confirm Password"
-            android:singleLine="true"
-            android:imeOptions="actionDone"
-            android:id="@+id/confirmPasswordET"/>
-        <Button
-            android:layout_gravity="right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sing Up"
-            android:textAllCaps="false"
-            android:id="@+id/singUpBtn"/>
+        android:layout_height="match_parent"
+        tools:context=".SignUpActivity">
 
         <LinearLayout
-            android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
 
-            <TextView
+            <EditText
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/nameET"/>
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/phoneET"/>
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/emailET"/>
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/passwordET"/>
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:id="@+id/confirmPasswordET"/>
+            <Button
+                android:layout_gravity="right"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:id="@+id/signInTV"
-                android:textColor="@color/colorAccent"
-                android:text="Sign In"/>
+                android:text="Sing Up"
+                android:textAllCaps="false"
+                android:id="@+id/singUpBtn"/>
 
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/signInTV"
+                    android:textColor="@color/colorAccent"
+                    android:text="Sign In"/>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
-
-</RelativeLayout>
+    </RelativeLayout>
+</layout>
