@@ -1,4 +1,4 @@
-package com.abdulkarim.firebaseloginapp;
+package com.abdulkarim.firebaseloginapplication;
 
 import org.junit.Test;
 

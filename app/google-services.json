@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "696556914777",
-    "firebase_url": "https://my-project-a78bd.firebaseio.com",
-    "project_id": "my-project-a78bd",
-    "storage_bucket": "my-project-a78bd.appspot.com"
+    "project_number": "142926004144",
+    "firebase_url": "https://user-auth-93e79.firebaseio.com",
+    "project_id": "user-auth-93e79",
+    "storage_bucket": "user-auth-93e79.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:696556914777:android:c203daa7b0011026cf4948",
+        "mobilesdk_app_id": "1:142926004144:android:ac36f13c4767733c626075",
         "android_client_info": {
-          "package_name": "com.abdulkarim.firebaseloginapp"
+          "package_name": "com.abdulkarim.firebaseloginapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "696556914777-igs0m9qvifrr5n8agibd953d1du22r38.apps.googleusercontent.com",
+          "client_id": "142926004144-s3slm91s6p99k7r007c8cmvu8getlhlg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.abdulkarim.firebaseloginapp",
+            "package_name": "com.abdulkarim.firebaseloginapplication",
             "certificate_hash": "b6d21c2cac471d03b21b8e194455743850a089d2"
           }
         },
         {
-          "client_id": "696556914777-3k4lgk3ti04v95pv8phu8hpm7g2mk7jc.apps.googleusercontent.com",
+          "client_id": "142926004144-8m5666vr1gcu0ab4jfv2gj5pd301do7m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCsqtz8KnVS2yTYp9WxKsbLNZJSwli5IeA"
+          "current_key": "AIzaSyAxgKrLTw96HqxdqT1C03Npta04GoYFEc4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "696556914777-3k4lgk3ti04v95pv8phu8hpm7g2mk7jc.apps.googleusercontent.com",
+              "client_id": "142926004144-8m5666vr1gcu0ab4jfv2gj5pd301do7m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
