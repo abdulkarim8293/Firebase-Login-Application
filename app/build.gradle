@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.abdulkarim.firebaseloginapp"
+        applicationId "com.abdulkarim.firebaseloginapplication"
         minSdkVersion 18
         targetSdkVersion 29
         versionCode 1
@@ -17,9 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     dataBinding {
         enabled true;
     }
+
 }
 
 dependencies {
